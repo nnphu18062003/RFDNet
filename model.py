@@ -1,8 +1,8 @@
 import tensorflow as tf
 
-from keras import Input, Model
-from keras.activations import sigmoid, tanh
-from keras.layers import Layer, Conv2D, ReLU, Concatenate
+from tensorflow.keras import Input, Model
+from tensorflow.keras.activations import sigmoid, tanh
+from tensorflow.keras.layers import Layer, Conv2D, ReLU, Concatenate
 from utils import *
 
 class DepthToSpaceLayer(Layer):

@@ -10,7 +10,7 @@ import tensorflow as tf
 
 from model import RFDNNet
 from utils import *
-from keras import Model, Input
+from tensorflow.keras import Model, Input
 
 
 def run(config, model):

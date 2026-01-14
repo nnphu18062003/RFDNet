@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ## Usage
 
 ### Testing
-<!-- Download the weight [here](https://drive.google.com/file/d/1OjJYirwRa8cLGzzdRYRkjq_1FokyI80V/view?usp=sharing) and put it to the folder. -->
+<!-- Download the weight [here]() and put it to the folder. -->
 ```
 usage: test.py [-h] [--test_path TEST_PATH] [--gpu GPU]
                [--weight_test_path WEIGHT_TEST_PATH] [--filter FILTER]
@@ -64,7 +64,7 @@ optional arguments:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/tuvovan/RFDNet-ImageSuperResolution/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/nnphu18062003/RFDNet.git) file for details
 
 ## References
 [1] Training and Testing dataset - [link](http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/BSR_bsds500.tgz)
@@ -81,6 +81,6 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 }
 ```
 ## Acknowledgments
-- Any ideas on updating or misunderstanding, please send me an email: <vovantu.hust@gmail.com>
+- Any ideas on updating or misunderstanding, please send me an email: <>
 - If you find this repo helpful, kindly give me a star.
 
