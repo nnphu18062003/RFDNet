@@ -3,7 +3,7 @@ Residual Feature Distillation Network for Lightweight Image Super-Resolution
 ![teaser](test/RFDNet.png)
 ## Content
 - [RFDNet](#rfdnet-super-resolution)
-- [Getting Started](#getting-tarted)
+- [Getting Started](#getting-started)
 - [Running](#running)
 - [References](#references)
 - [Citations](#citation)
@@ -19,6 +19,9 @@ Residual Feature Distillation Network for Lightweight Image Super-Resolution
 - Keras 2.3.0
 - PIL
 - numpy
+- matplotlib
+- opencv-python
+- tensorflow-datasets
 
 ```python
 pip install -r requirements.txt
@@ -39,7 +42,7 @@ pip install -r requirements.txt
 ## Usage
 
 ### Testing
-<!-- Download the weight [here]() and put it to the folder. -->
+Pre-trained weights are available in `weights/best.h5`.
 ```
 usage: test.py [-h] [--test_path TEST_PATH] [--gpu GPU]
                [--weight_test_path WEIGHT_TEST_PATH] [--filter FILTER]
@@ -81,6 +84,5 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 }
 ```
 ## Acknowledgments
-- Any ideas on updating or misunderstanding, please send me an email: <>
 - If you find this repo helpful, kindly give me a star.
 
